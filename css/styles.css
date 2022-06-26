@@ -1,0 +1,58 @@
+
+*{margin: 0; padding: 0;}
+
+/* a{
+    text-decoration: none;
+    color: orange;
+} */
+
+.wrap{
+    /* width: 100%; */
+    height: 100vh;
+    /* =>vh: viewport height의 약자
+    =>현재 보고있는 브라우저의 높이값 */
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_box{
+    width: 400px;
+    background-color: white;
+    padding: 60px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    /* *박스 그림자
+    =>box-shadow: x y b color; */
+}
+
+.form_box input{
+    /* height: 40px; */
+    padding: 15px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #f1f1f1;
+    margin-bottom: 15px;
+}
+
+.form_box input:nth-child(3){
+    font-size: 18px;
+    font-weight: 900;
+    color: white;
+    background-color: orange;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.form_box p{
+    font-size: 14px;
+    text-align: center;
+}
+
+.form_box span{
+    color: orange;
+}
+

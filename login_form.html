@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+
+    <style>
+
+        *{margin: 0; padding: 0;}
+
+        a{
+            color: orange;
+            text-decoration: none;
+        }
+
+        .bg{
+            width: 100%;
+            height: 1000px;
+            background-color: orange;
+            padding-top: 200px;
+            box-sizing: border-box;
+        }
+
+        .wrap{
+            width: 400px;
+            height: 350px;
+            background-color: white;
+            margin: 0 auto;
+            padding: 60px 50px;
+           box-sizing: border-box;
+        }
+
+        .title{
+            font-size: 26px;
+            font-weight: 900;
+            color: orange;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        input{
+            width: 300px;
+            height: 40px;
+            background-color: #f1f1f1;
+            border-style: none;
+            padding-left: 10px;
+            box-sizing: border-box;
+            margin: 8px 0;
+        }
+
+        button{
+            width: 300px;
+            height: 50px;
+            background-color: orange;
+            color: white;
+            border-style: none;
+            margin: 8px 0;
+        }
+
+        .text_wrap p{
+            float: left;
+            text-align: center;
+        }
+
+        .text_wrap .q{
+            margin-right: 10px;
+            color: gray;
+        }
+
+        .text_wrap .r{
+            color: orange;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="bg">
+        <div class="wrap">
+
+            <h3 class="title">LOGIN</h3>
+            
+            <div class="id">
+                <input type="text" placeholder="username">
+            </div>
+
+            <div class="pw">
+                <input type="password" placeholder="password">
+            </div>
+
+            <div class="btn">
+                <button>LOGIN</button>
+            </div>
+
+            <div class="text_wrap">
+                <p class="q">Already have an account?</p>
+                <p class="r"><a href="#">Register</a></p>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
